@@ -1,0 +1,147 @@
+body{
+    background: #f9f9f9;
+}
+
+body .container{
+    background: #FFF;
+    min-height: 500px;
+    height: 500px;
+    margin: 2% auto;
+    padding: 0 !important;
+}
+
+.l-nav h1.branding{
+    font-size: 3.5em;
+    font-family: Times New Roman;
+    font-style: oblique;
+    font-weight: normal;
+    cursor: default;
+    color: #FFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background: #7FA56D;
+}
+
+.l-nav{
+    height: 100%;
+    width: 25%;
+    float: left;
+    background: #E6ECE3;
+}
+
+.l-nav h1.branding, .main-box .lookup-form{
+    text-align: center;
+    line-height: 75px;
+    height: 75px;
+    margin: 0;
+    border-bottom: 5px solid #80BE63;
+}
+
+.l-nav ul{
+    list-style: none;
+    border: 1px solid #80BE63;
+    border-top: none;
+    padding: 10px 0 !important;
+}
+
+
+
+.l-nav ul li{
+    margin: 0 10px;
+}
+
+.l-nav ul li button.word-link{
+    width: 100%;
+    border: none;
+    border-bottom: 1px dashed;
+    padding: 5px 0;
+    background: transparent;
+    color: #588443;
+    font-weight: bold;
+}
+
+.main-box{
+    width: 75%;
+    float: left;
+}
+
+.search-form{
+    width: 100%;
+}
+
+.search-form .inlined{
+    float: left;
+}
+
+.search-form .more-options{
+    padding: 8px 5px;
+    margin: 10px 7px;
+}
+
+.search-form .search-input{
+    width: calc(100% - 135px);
+    padding: 0 10px;
+    height: auto;
+    font-size: 20px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+
+
+.result, .l-nav ul{
+      padding: 0 20px;
+    max-height: 425px;
+  overflow: auto;
+}
+
+.definition .heading{
+    margin: 5px auto;
+}
+
+ul.antonyms, ul.synonyms{
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+ul.antonyms li, ul.synonyms li {
+    float: left;
+    color: #888;
+}
+
+ul.examples .example{
+    font-style: italic;
+    color: #888;
+}
+
+code.phonetic-text{
+      margin: 10px 50px auto 10px;
+}
+
+.examples li, .synonyms li{
+
+}
+
+.example li:hover, .synonym li:hover{
+
+}
+
+.meanings .meaning{
+
+}
+
+.meaning .meaning-title{
+      margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+body.clearfix{display:block !important;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
